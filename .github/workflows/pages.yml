@@ -29,6 +29,7 @@ jobs:
 
       # NEW: Python + Jupyter for notebook conversion
       # >>> Add these two steps so jekyll-jupyter-notebook can run jupyter
+      # Commands to install Jupyter in the workflow      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
