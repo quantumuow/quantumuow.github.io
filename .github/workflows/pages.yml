@@ -20,7 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-
+      
+      # System deps used by al-folio plugins (e.g., jekyll-imagemagick)
       - name: Install system packages
         run: |
           sudo apt-get update
